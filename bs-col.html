@@ -1,30 +1,32 @@
 <!-- Import Polymer -->
 <link rel="import" href="../polymer/polymer.html">
 
-<!-- Define "container" custom element -->
-<polymer-element name="bs-container" noscript>
-  <template>
-    <link rel="stylesheet" href="css/bs-container.css">
-    <content></content>
-  </template>
-</polymer-element>
+<!--
+A Bootstrap Grid Column
 
-<!-- Define "row" custom element -->
-<polymer-element name="bs-row" noscript>
-  <template>
-    <link rel="stylesheet" href="css/bs-row.css">
-    <content></content>
-  </template>
+##### Example
 
-</polymer-element>
+    <bs-container>
+      <bs-row>
+        <bs-col md="4">bs-col md="4"</bs-col>
+        <bs-col md="4">bs-col md="4"</bs-col>
+        <bs-col md="4">bs-col md="4"</bs-col>
+      </bs-row>
+    </bs-container>
+
+@element bs-col
+@blurb Custom element for generating Bootstrap grid columns
+@status alpha
+@homepage http://robdodson.github.io/twbs-grid
+-->
 
 <!-- Define "col" custom element -->
 <polymer-element name="bs-col" attributes="xs sm md lg xspull smpull mdpull lgpull xspush smpush mdpush lgpush xsoffset smoffset mdoffset lgoffset">
   <template>
-    <link rel="stylesheet" href="css/bs-col.min.css">
-    <link rel="stylesheet" href="css/bs-col-pull.min.css">
-    <link rel="stylesheet" href="css/bs-col-push.min.css">
-    <link rel="stylesheet" href="css/bs-col-offset.min.css">
+    <link rel="stylesheet" href="css/bs-col.css">
+    <link rel="stylesheet" href="css/bs-col-pull.css">
+    <link rel="stylesheet" href="css/bs-col-push.css">
+    <link rel="stylesheet" href="css/bs-col-offset.css">
     <content></content>
   </template>
 

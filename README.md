@@ -10,7 +10,7 @@ The Bootstrap Grid System Web Component.
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install web-loader --save
+$ bower install twbs-grid --save
 ```
 
 Or [download as ZIP](https://github.com/mvaldetaro/twbs-grid/archive/master.zip).
@@ -26,13 +26,19 @@ Or [download as ZIP](https://github.com/mvaldetaro/twbs-grid/archive/master.zip)
 2. Import Custom Element:
 
   ```html
-<link rel="import" href="bower_components/twbs-grid/src/twbs-grid.html">
+<link rel="import" href="bower_components/twbs-grid/twbs-grid.html">
   ```
 
 3. Start using it!
 
   ```html
-<web-loader></web-loader>
+<bs-container>
+  <bs-row>
+    <bs-col md="4">bs-col md="4"</bs-col>
+    <bs-col md="4">bs-col md="4"</bs-col>
+    <bs-col md="4">bs-col md="4"</bs-col>
+  </bs-row>
+</bs-container>
   ```
 
 ## Options
