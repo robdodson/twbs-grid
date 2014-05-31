@@ -1,0 +1,40 @@
+{
+  "name": "twbs-grid",
+  "homepage": "https://github.com/mvaldetaro/twbs-grid",
+  "authors": [
+    "Magno Valdetaro <mvaldetaro@gmail.com>"
+  ],
+  "description": "The Bootstrap Grid System Web Component",
+  "main": "twbs-grid.html",
+  "keywords": [
+    "web-components",
+    "grid",
+    "polymer",
+    "twitter bootstrap",
+    "bootstrap",
+    "twbs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".bowerrc"
+  ],
+  "dependencies": {
+    "platform": "Polymer/platform#~0.3.1",
+    "polymer": "Polymer/polymer#~0.3.1"
+  },
+  "_release": "2b3a91160b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2b3a91160bbbafef4c92c52a69072cb2f752d4b4"
+  },
+  "_source": "git://github.com/robdodson/twbs-grid.git",
+  "_target": "master",
+  "_originalSource": "robdodson/twbs-grid",
+  "_direct": true
+}
